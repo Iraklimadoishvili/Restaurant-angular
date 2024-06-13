@@ -1,0 +1,74 @@
+.header-background {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #343a40 !important; /* Dark color for brand */
+  }
+    
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: #000;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar-nav .nav-link:hover{
+    font-size: 1.2rem;
+  }
+  .nav-link .bi-cart {
+    font-size: 1.5rem;
+    color: #343a40; /* Dark color for cart icon */
+  }
+  
+  .nav-link .badge {
+    font-size: 0.75rem;
+  }
+  
+  .form-control {
+    border-radius: 30px; /* Rounded corners for input */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for input */
+  }
+  
+  .btn-dark {
+    border-radius: 30px; /* Rounded corners for button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+  }
+  
+  .btn-outline-dark {
+    border-radius: 30px; /* Rounded corners for outline button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for outline button */
+  }
+  .form-check-input[type=checkbox] {
+    border-radius: .25em;
+    border-color: black;
+}
+  .card-container .card {
+    height: 100%;
+    transition: transform 0.2s;
+  }
+  
+  .card-container .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  #uniform-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /*filter borders*/
+  input.form-control {
+    border-color: #0f090959;
+}
+
+a {
+  color: rgb(12 15 18);
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}

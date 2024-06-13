@@ -1,0 +1,65 @@
+.header-background {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #343a40 !important; /* Dark color for brand */
+  }
+    
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: #000;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar-nav .nav-link:hover{
+    font-size: 1.2rem;
+  }
+  .nav-link .bi-cart {
+    font-size: 1.5rem;
+    color: #343a40; /* Dark color for cart icon */
+  }
+  
+  .nav-link .badge {
+    font-size: 0.75rem;
+  }
+  
+  .btn-dark {
+    border-radius: 30px; /* Rounded corners for button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+  }
+  
+  .btn-outline-dark {
+    border-radius: 30px; /* Rounded corners for outline button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for outline button */
+  }
+
+  .form-control {
+    display: block;
+    border-color: black;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #000000;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}

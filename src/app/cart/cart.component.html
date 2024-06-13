@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-7 mx-auto">
+        <h2 class="mb-4">Shopping Cart</h2>
+        <div class="card mb-3" *ngFor="let item of cartItems">
+          <div class="row g-0">
+            <div class="col-md-4 shadow-lg">
+              <img [src]="item.photoUrl" id="uniform-image" class="img-fluid rounded-start" alt="{{ item.name }}">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">{{ item.price | currency }}</p>
+                <div class="d-flex align-items-center">
+                  <button class="btn btn-secondary btn-sm me-2" (click)="decreaseQuantity(item)">-</button>
+                  <input type="number" class="form-control mx-2" [(ngModel)]="item.quantity" readonly>
+                  <button class="btn btn-secondary btn-sm me-2" (click)="increaseQuantity(item)">+</button>
+                  <button class="btn btn-danger btn-sm" (click)="removeItem(item)">Remove</button>
+                </div>
+                <p class="card-text mt-2">Total: {{ (item.price * item.quantity) | currency }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 ">
+          <div class="card-body">
+            <h5 class="card-title">Total Price</h5>
+            <p class="card-text">Total: {{ calculateTotalPrice() | currency }}</p>
+            <button class="btn btn-primary" (click)="checkout()">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
