@@ -9,8 +9,8 @@ Filtering: Filter food items by categories such as appetizers, main courses, des
 Checkout Process: Seamless checkout experience allowing users to add items to their cart and complete orders.
 
 # Technologies Used
-Angular: A platform and framework for building single-page client applications using HTML and TypeScript.
-RxJS: A library for reactive programming using observables, to handle asynchronous operations and data streams.
-HttpClient: Angular's built-in module for making HTTP requests to remote servers.
-Angular Material: UI component library for Angular that provides a set of reusable and accessible UI components following Google's Material Design principles.
-Angular JWT: Library for handling JWT tokens in Angular applications, used for secure authentication.
+- Angular: A platform and framework for building single-page client applications using HTML and TypeScript.
+- RxJS: A library for reactive programming using observables, to handle asynchronous operations and data streams.
+- HttpClient: Angular's built-in module for making HTTP requests to remote servers.
+- Angular Material: UI component library for Angular that provides a set of reusable and accessible UI components following Google's Material Design principles.
+- Angular JWT: Library for handling JWT tokens in Angular applications, used for secure authentication.
